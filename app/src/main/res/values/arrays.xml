@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="service_options">
+        <item>Pro</item>
+        <item>Biasa aja</item>
+        <item>Oke</item>
+    </string-array>
+</resources>

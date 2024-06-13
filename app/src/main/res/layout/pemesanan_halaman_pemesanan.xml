@@ -1,0 +1,301 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/halaman_pemesanan" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout
+				android:id="@+id/page_halaman_pemesanan_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__halaman_pemesanan_ek2"
+					android:layout_width="360dp"
+					android:layout_height="800dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__halaman_pemesanan_ek2_shape" />
+
+				<TextView
+					android:id="@+id/order"
+					android:layout_width="136dp"
+					android:layout_height="44dp"
+					android:layout_marginLeft="61dp"
+					android:layout_marginTop="30dp"
+					android:text="@string/order_string"
+					android:textColor="@color/order_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/your_clothes"
+					android:layout_width="149dp"
+					android:layout_height="44dp"
+					android:layout_marginLeft="29dp"
+					android:layout_marginTop="92dp"
+					android:text="@string/your_clothes_string"
+					android:textColor="@color/order_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<View
+					android:id="@+id/rectangle_15"
+					android:layout_width="311dp"
+					android:layout_height="84dp"
+					android:layout_marginStart="24dp"
+					android:layout_marginTop="134dp"
+					android:alpha="0.50999999046326"
+					android:background="@drawable/rectangle_15_shape" />
+
+				<View
+					android:id="@+id/rectangle_22"
+					android:layout_width="137dp"
+					android:layout_height="38dp"
+					android:layout_marginStart="109dp"
+					android:layout_marginTop="690dp"
+					android:alpha="0.50999999046326"
+					android:background="@drawable/rectangle_22_shape" />
+
+				<TextView
+					android:id="@+id/payment"
+					android:layout_width="69.3dp"
+					android:layout_height="20.3dp"
+					android:layout_marginLeft="130dp"
+					android:layout_marginTop="700dp"
+					android:text="@string/payment_string"
+					android:textColor="@color/order_color"
+					android:textSize="13sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/tvjenisbaju"
+					android:layout_width="58.3dp"
+					android:layout_height="20.3dp"
+					android:layout_marginLeft="100dp"
+					android:layout_marginTop="158dp"
+					android:text="@string/t_shirt_string"
+					android:textColor="@color/order_color"
+					android:textSize="13sp"
+					android:textStyle="bold" />
+
+				<EditText
+					android:id="@+id/_5"
+					android:layout_width="30dp"
+					android:layout_height="50dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="252dp"
+					android:layout_marginTop="149dp"
+					android:text="@string/_5_string"
+					android:textColor="@color/order_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/tvharga"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="101dp"
+					android:layout_marginTop="181dp"
+					android:text="@string/rp_500_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/tvgender"
+					android:layout_width="32dp"
+					android:layout_height="15dp"
+					android:layout_marginLeft="156dp"
+					android:layout_marginTop="181dp"
+					android:text="@string/man_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<ImageView
+					android:id="@+id/tshirt_5510120_1"
+					android:layout_width="41dp"
+					android:layout_height="41dp"
+					android:layout_marginStart="45dp"
+					android:layout_marginTop="155dp"
+					android:contentDescription="tshirt_5510120_1"
+					android:src="@drawable/tshirt_5510120_1" />
+
+				<View
+					android:id="@+id/rectangle_23"
+					android:layout_width="311dp"
+					android:layout_height="84dp"
+					android:layout_marginStart="24dp"
+					android:layout_marginTop="232dp"
+					android:alpha="0.50999999046326"
+					android:background="@drawable/rectangle_23_shape" />
+
+				<TextView
+					android:id="@+id/pants"
+					android:layout_width="49.3dp"
+					android:layout_height="20.3dp"
+					android:layout_marginLeft="100dp"
+					android:layout_marginTop="256dp"
+					android:text="@string/pants_string"
+					android:textColor="@color/order_color"
+					android:textSize="13sp"
+					android:textStyle="bold" />
+
+				<EditText
+					android:id="@+id/_3"
+					android:layout_width="31dp"
+					android:layout_height="50dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="252dp"
+					android:layout_marginTop="243dp"
+					android:text="@string/_3_string"
+					android:textColor="@color/order_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/rp_500_ek1"
+					android:layout_width="46dp"
+					android:layout_height="15dp"
+					android:layout_marginLeft="101dp"
+					android:layout_marginTop="279dp"
+					android:text="@string/rp_500_ek1_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/man_ek1"
+					android:layout_width="32dp"
+					android:layout_height="15dp"
+					android:layout_marginLeft="156dp"
+					android:layout_marginTop="279dp"
+					android:text="@string/man_ek1_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<View
+					android:id="@+id/rectangle_24"
+					android:layout_width="311dp"
+					android:layout_height="84dp"
+					android:layout_marginStart="25dp"
+					android:layout_marginTop="330dp"
+					android:alpha="0.50999999046326"
+					android:background="@drawable/rectangle_24_shape" />
+
+				<TextView
+					android:id="@+id/outerwear"
+					android:layout_width="80.3dp"
+					android:layout_height="20.3dp"
+					android:layout_marginLeft="101dp"
+					android:layout_marginTop="354dp"
+					android:text="@string/outerwear_string"
+					android:textColor="@color/order_color"
+					android:textSize="13sp"
+					android:textStyle="bold" />
+
+				<EditText
+					android:id="@+id/_1"
+					android:layout_width="wrap_content"
+					android:layout_height="66dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="253dp"
+					android:layout_marginTop="339dp"
+					android:text="@string/_1_string"
+					android:textColor="@color/order_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/rp_500_ek2"
+					android:layout_width="46dp"
+					android:layout_height="15dp"
+					android:layout_marginLeft="102dp"
+					android:layout_marginTop="377dp"
+					android:text="@string/rp_500_ek2_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/man_ek2"
+					android:layout_width="32dp"
+					android:layout_height="15dp"
+					android:layout_marginLeft="157dp"
+					android:layout_marginTop="377dp"
+					android:text="@string/man_ek2_string"
+					android:textColor="@color/rp_500_color"
+					android:textStyle="bold" />
+
+				<ImageView
+					android:id="@+id/arrow_forward"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="210dp"
+					android:layout_marginTop="699dp"
+					android:contentDescription="arrow_forward"
+					android:src="@drawable/arrow_forward" />
+
+				<ImageView
+					android:id="@+id/arrow_back2"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:layout_marginStart="14dp"
+					android:layout_marginTop="26dp"
+					android:contentDescription="arrow_back"
+					android:src="@drawable/arrow_back" />
+
+				<ImageView
+					android:id="@+id/add"
+					android:layout_width="25dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="170dp"
+					android:layout_marginTop="89dp"
+					android:contentDescription="add"
+					android:src="@drawable/add" />
+
+				<ImageView
+					android:id="@+id/trouser_10770140_2"
+					android:layout_width="53.19dp"
+					android:layout_height="41dp"
+					android:layout_marginStart="38dp"
+					android:layout_marginTop="253dp"
+					android:contentDescription="trouser_10770140_2"
+					android:src="@drawable/trouser_10770140_2" />
+
+				<ImageView
+					android:id="@+id/hoodie_2122562_2"
+					android:layout_width="38dp"
+					android:layout_height="38dp"
+					android:layout_marginStart="46dp"
+					android:layout_marginTop="355dp"
+					android:contentDescription="hoodie_2122562_2"
+					android:src="@drawable/hoodie_2122562_2" />
+
+				<Button
+					android:id="@+id/btpickupschedule"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="450dp"
+					android:background="@drawable/rectangle_23_shape"
+					android:text="Pickup Schedule" />
+
+				<Button
+					android:id="@+id/btnlayananlaundry"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="525dp"
+					android:background="@drawable/rectangle_23_shape"
+					android:text="laundry service" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

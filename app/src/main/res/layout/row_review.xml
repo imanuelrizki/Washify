@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:padding="8dp">
+
+
+    <ImageView
+        android:id="@+id/profilePict"
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/tReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="mantap, cepat, amanah"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/profilePict"
+        app:layout_constraintTop_toBottomOf="@+id/profilePict" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@+id/profilePict"
+        app:layout_constraintTop_toTopOf="@+id/profilePict"
+        tools:text="Abdul Rasyid" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:background="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/others" />
+
+    <ImageView
+        android:id="@+id/ratingBar"
+        android:layout_width="140dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/profilePict"
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        app:srcCompat="@drawable/rating" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

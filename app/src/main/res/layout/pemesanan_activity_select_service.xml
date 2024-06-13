@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <Spinner
+        android:id="@+id/service_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/select_service" />
+
+    <EditText
+        android:id="@+id/service_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Description" />
+
+    <EditText
+        android:id="@+id/service_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/add_service_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_24_shape"
+        android:text="Add Service" />
+</LinearLayout>
